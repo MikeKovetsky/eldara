@@ -28,7 +28,7 @@ jobs:
 
       # 4 Build the docs into site/
       - name: Build documentation
-        run: mkdocs build --strict --verbose
+        run: mkdocs build --strict --verbose --config-file docs/mkdocs.yml
 
       # 5 Deploy to gh-pages
       - name: Deploy to GitHub Pages
