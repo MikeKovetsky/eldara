@@ -19,6 +19,8 @@ jobs:
       # 1 Checkout repo
       - uses: actions/checkout@v4
         with:
+          lfs: true
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0        # mkdocs needs full history for versioning
 
       # 2 Set up Python
