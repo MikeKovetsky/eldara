@@ -1,1 +1,12 @@
 site_name: Eldara Wiki
+
+theme:
+  name: material          # pip install mkdocs-material
+  palette:
+    # dark scheme
+    - scheme: slate       # Material’s built-in dark palette
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
