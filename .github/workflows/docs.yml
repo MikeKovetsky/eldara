@@ -44,3 +44,5 @@ jobs:
           publish_dir: ./site            # mkdocs outputs here
           publish_branch: gh-pages       # default is gh-pages
           force_orphan: true             # keeps history small
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
